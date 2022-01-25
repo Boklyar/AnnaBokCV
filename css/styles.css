@@ -1,0 +1,175 @@
+
+/*Title section*/
+#title{
+    background-color:#314e72 ;
+}
+
+h1{
+    font-family: "Dancing Script" ;
+    color:#e49761;
+    line-height: 1.5;
+    
+}
+.navbar-brand{
+    font-family: "Dancing Script";
+    font-weight: 700;
+    font-size: 2.5rem;
+    
+}
+.main-image{
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+.container-fluid{
+    padding: 3% 15% 1%;  
+}
+
+
+/*Contact me on banner*/
+.contact-me{
+    text-align: center;
+}
+.socialmedia-logo{
+    width: 3%;
+    margin: 20px;
+   
+}
+
+/*Nav bar*/
+
+.navbar{
+    padding: 0 0 72px;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: "Josefin Sans" ;
+}
+/*Knowledge*/
+.logo {
+    width:50px;
+    margin: 20%; 
+    text-align: center;
+}
+#knowledge {
+    margin: 50px auto;
+    width: 60%;
+}
+.subtitle-knowledge {
+    font-family: Josefin Sans;
+    font-weight: 700;
+    color:#314e72;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.knowledge-text {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Josefin Sans;
+    font-weight: 400;
+    color: #314e72;
+    font-size: 1.5rem;
+}
+
+/*Education*/
+
+#education{
+    background-color: #314e72;
+    padding: 50px 45px 100px;
+   
+}
+
+.education-card{
+    text-align: center;
+    padding: 5%;
+}
+
+.img-top{
+    height: 109px;
+    width: 264px;
+    margin-bottom: 20px;
+}
+.course-name, .course-year, h5{
+    color:#e49761;
+}
+.subtitle-education{
+    color: #e49761;
+    text-align: center;
+}
+
+/*Work experience*/
+.pmob{
+    text-align: center;
+    padding: 5%
+}
+
+#experience{
+    padding: 5% 15%;
+}
+
+.work-company-logo{
+    width: 300px;
+    height: 100px;
+}
+
+
+h2, h4, p{
+    font-family: Josefin Sans;
+    color: #314e72;
+    line-height: 1.5; 
+}
+h5 {
+    font-size: 1.5rem;
+    line-height: 2;
+}
+.course-name, .course-year{
+    font-size: 1.3rem;
+}
+
+
+
+/*Footer*/
+#footer{
+    background-color: #314e72;
+    text-align: center;
+    color: #e49761;
+    
+}
+.copyright{
+    color: #e49761;
+    margin-bottom: 0;
+}
+
+@media(min-width:992px) and (max-width:1300px){
+h1{
+    
+    font-size: 1.5rem;
+}
+}
+
+@media(max-width:991px){
+    .mob{
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .knowledge{
+        width: 100%;
+    }
+    .socialmedia-logo{
+        width: 8%;
+        margin: 20px;
+    }
+    .main-image{
+        width: 50%;
+        left: 25%;
+        top:5%;
+    }
+    h1{
+        text-align: center;
+    }
+    
+}
